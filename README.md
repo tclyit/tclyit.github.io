@@ -1,2 +1,2 @@
 # tclyit.github.io
-Currency converter viewing
+App preview list
