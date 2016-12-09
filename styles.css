@@ -1,0 +1,17 @@
+.title {
+  font-weight: bold;
+}
+
+.app-list {
+  
+}
+
+.list li a {
+  color: #1D2C7A;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.list li a:hover {
+  background-color:#f0f0f0;
+}
