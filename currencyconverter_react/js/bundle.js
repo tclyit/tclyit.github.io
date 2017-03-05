@@ -12599,7 +12599,7 @@ var Converter = function (_React$Component) {
         value: function getExchangeRate() {
             var _this2 = this;
 
-            var baseUrl = 'http://api.fixer.io/latest';
+            var baseUrl = 'https://api.fixer.io/latest';
             var a = this.state.baseRateName;
             var b = this.state.toRateName;
 
