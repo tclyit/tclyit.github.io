@@ -12680,6 +12680,7 @@ var Converter = function (_React$Component) {
             // in absolute case this rate value 'd[toName]' 
             // must force to parse to float if not promised by rest api result
             var n = this.state.inputRate * exchangeRate;
+		n = isNan(n) ? 0 : n;
             this.setState({ convertedAmount: Number(n.toFixed(2)) });
         }
 
